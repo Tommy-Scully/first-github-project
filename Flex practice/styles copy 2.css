@@ -1,0 +1,43 @@
+*{
+    border-sizing: border-box;
+}
+
+.container{
+    border: 4px solid black;
+    padding: 96px; 
+}
+
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    border: 4px solid black;
+    height: 50px;
+    margin-bottom: 24px;
+}
+
+.small-box{
+    border:4px solid green;
+    height:50px;
+    width:25%;
+}
+
+.big-box{
+    border:4px solid blue;
+width: 50%
+}
+
+.smol{
+    display: flex;
+    justify-content: space-between;
+}
+
+.test{
+   padding-right: 24px;
+   width:50%
+}
